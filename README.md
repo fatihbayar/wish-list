@@ -4,7 +4,7 @@
 
 Clone repository.
 ```sh
-$ git clone https://github.com/fatihbayar/case-study.git
+$ git clone https://github.com/fatihbayar/wish-list.git
 ```
 
 After cloning run the following docker-compose command in the repository root.
