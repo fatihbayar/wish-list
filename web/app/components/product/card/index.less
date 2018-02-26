@@ -1,0 +1,48 @@
+.card {
+  padding: 15px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  transition: box-shadow .25s;
+  position: relative;
+}
+
+.card:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.card:last-child {
+  margin-bottom: 0;
+}
+
+.image-wrapper {
+  margin-right: 20px;
+}
+
+.image {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.information {
+  height: 100%;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 300;
+}

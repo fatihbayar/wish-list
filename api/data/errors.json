@@ -1,0 +1,12 @@
+{
+  "UNKNOWN": {
+    "message": "Something went wrong.",
+    "type": 1,
+    "status": 500
+  },
+  "VALIDATION": {
+    "message": "Data not in the right format.",
+    "type": 2,
+    "status": 400
+  }
+}

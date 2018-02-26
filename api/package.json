@@ -1,0 +1,20 @@
+{
+  "name": "api",
+  "scripts": {
+    "start": "node server",
+    "test": "mocha -r co-mocha test/**.js",
+    "covarage": "istanbul cover _mocha"
+  },
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "debug": "3.1.0",
+    "express": "4.16.2",
+    "lodash": "4.17.5"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "co-mocha": "^1.2.1",
+    "istanbul": "0.4.5",
+    "mocha": "5.0.1"
+  }
+}
